@@ -5,7 +5,7 @@
   "main": "main.ts",
   "scripts": {
     "start": "bun run main.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "bun test"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/nagy135/ts-bit-torrent#readme",
   "devDependencies": {
-    "@types/node": "^20.8.7"
+    "@types/node": "^20.8.7",
+    "bun-types": "^1.0.6"
   }
 }

@@ -1,7 +1,7 @@
 type PossibleValues = string | number;
 type Data = PossibleValues | Record<string, PossibleValues> | PossibleValues[];
 
-const bencode_decode = (str: string): Data => {
+export const bencode_decode = (str: string): Data => {
   if (str[0] == "i") {
     return 0;
   } else if (str[0] == "l") {
@@ -20,12 +20,6 @@ function main() {
   // const args = process.argv.slice(2);
   const toProcess = "5:hello";
   const processed = bencode_decode(toProcess);
-  console.log(
-    "================\n",
-    "processed: ",
-    processed,
-    "\n================",
-  );
 }
 
 main();
