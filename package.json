@@ -1,0 +1,26 @@
+{
+  "name": "ts-bit-torrent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "start": "bun run main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagy135/ts-bit-torrent.git"
+  },
+  "keywords": [
+    "bit-torrent"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nagy135/ts-bit-torrent/issues"
+  },
+  "homepage": "https://github.com/nagy135/ts-bit-torrent#readme",
+  "devDependencies": {
+    "@types/node": "^20.8.7"
+  }
+}
